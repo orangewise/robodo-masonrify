@@ -1,7 +1,8 @@
 Package.describe({
   name: 'robodo:masonrify',
   summary: 'Easy Masonry Style Layouts in Meteor',
-  version: '0.0.1'
+  version: '0.0.1',
+  git: 'https://github.com/orangewise/robodo-masonrify'
 });
 
 
