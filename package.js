@@ -7,9 +7,9 @@ Package.describe({
 
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('1.0');
   api.use(['deps','templating','underscore'], 'client');
-  api.use(['robodo:meteor-debug']);
+  api.use(['robodo:meteor-debug@0.0.5']);
   api.add_files(['masonry/masonry.pkgd.js', 'imagesloaded/imagesloaded.pkgd.js'], 'client');
   api.add_files(['template.html'], 'client');
   api.add_files(['masonry-style.css'], 'client');
