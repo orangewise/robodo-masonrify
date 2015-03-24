@@ -23,6 +23,7 @@ The container div is created using the #masonryContainer block helper. For each 
 
 Use the {{#masonryElement}} block helper to create the individual elements to be layouted. Pass the id previously defined...
 
+```html
 {{#masonryContainer columnWidth=115 transitionDuration="0.1s" gutter=2 id="MasonryContainer" }}
  {{#each exampleContentCollection}}
    {{#masonryElement "MasonryContainer"}}
@@ -30,5 +31,6 @@ Use the {{#masonryElement}} block helper to create the individual elements to be
    {{/masonryElement}}
  {{/each}}
 {{/masonryContainer}}
+```
 
 
